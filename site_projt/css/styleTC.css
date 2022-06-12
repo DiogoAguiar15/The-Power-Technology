@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+background-color: #F6F6F7;
+padding: 2px 0;
+border-bottom: 4px solid #0076C8;
+}
+
+.logo {
+    width: 40%;
+}
+
+.menu{
+    width: 60%;
+    text-align: right;
+    font-size: 50px;
+}
+
+.menu a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.menu a:hover{
+    color: #0076C8;
+}
+
+#titulo {
+ color:#0076C8;
+ margin-left: 7%;
+}
+
+#subtitulo{
+    color:#000000;
+    margin-left:10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+main{
+    background-image: url(../img/fundo.png);
+    padding: 60px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.mae{
+    color:#0076C8;
+    font-size: 1em;
+    margin-left: 32%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+     border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:#0076C8;
+    display: block;
+}
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type=text], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: none;
+    box-shadow: #000000;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #F6F6F7;
+    color: #000000;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #0076C8;
+    border: 0;
+    color: #F6F6F7;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-sizing: 2px 2px 2px #0076C8;
+    position: relative;
+    top: 130%;
+    left: 20%;
+    cursor: pointer;
+   
+}
+.botao:hover{
+    background: #09d;
+    box-shadow: inset 2px 2px 2px #0076C8;
+    text-shadow: none;
+}
+
+#chek{
+    display: inline-block ;
+}
+
+select:hover,
+Select:focus,
+form input:hover,
+form input:focus,
+form textarea:hover,
+form textarea:focus{
+    outline: none;
+    border-color: #0076C8;
+    box-shadow: 0 0 0 3px #0076C8;
+}
+
+form input, textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
